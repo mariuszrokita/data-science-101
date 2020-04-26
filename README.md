@@ -7,12 +7,19 @@
 ## Set up virtual environment
 
 ```bash
-conda create --name datascience101 python=3.7
+conda create --name datascience101 python=3.7 jupyter jupyterlab
 conda activate datascience101
 ```
 
 ## Install dependencies
 
-```bash
-pip3 install -r requirements.txt
+```shell
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+It is also worth installing the Jupyter Notebook Extensions:
+
+```shell
+pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install
 ```

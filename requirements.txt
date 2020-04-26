@@ -1,3 +1,6 @@
-jupyter
-scikit-learn
+matplotlib
+numpy
 pandas
+scikit-learn
+seaborn
+statsmodels
