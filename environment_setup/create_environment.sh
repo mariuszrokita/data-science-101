@@ -3,7 +3,7 @@
 ENV_NAME=datascience101
 
 # Create an environment from the YAML file
-conda env create -f ../environment.yml -n $ENV_NAME
+conda env create -f environment.yml -n $ENV_NAME
 
 # Install development tools that are only needed on Development Workstations
 conda install -n $ENV_NAME -y jupyterlab jupyter_contrib_nbextensions -c conda-forge

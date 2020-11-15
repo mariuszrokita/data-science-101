@@ -7,6 +7,13 @@
 ## Set up virtual environment
 
 ```bash
-> sh create_environment.sh
+> sh environment_setup/create_environment.sh
 > conda activate datascience101
+```
+
+## Update a virtual environment
+
+```bash
+> conda activate datascience101
+> sh environment_setup/update_environment.sh
 ```
